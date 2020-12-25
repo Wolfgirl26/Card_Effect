@@ -31,7 +31,7 @@ body {
   justify-content: center;
   padding: 0 1.5rem;
 }
-
+/*----------card-------------*/
 .cards {
   display: flex;
   flex-direction: column;
@@ -152,7 +152,8 @@ body {
 .read a:hover::before {
   transform: scaleX(1);
 }
-
+/*-----xxx-----card--------xxx-----*/
+/*----------screen display  more then 600px-------------*/
 @media screen and (min-width: 600px) {
   .cards {
     flex-direction: row;
@@ -201,3 +202,4 @@ body {
   }
 }
 
+/*-----xxx-----screen display  more then 600px----------xxx---*/
